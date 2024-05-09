@@ -38,31 +38,17 @@ Please refer to the individual notebooks for specific details on which dataset i
 #### Quantitative Prediction (QP)
 The **QP** task evaluates the model's ability to predict the magnitude of numerical values stated in text, requiring the identification and contextual understanding of numerical entities.
 
-**Example:**
-- **Context**: "Ice age wolf skull: [Num] year old wolf skull found, scanned"
-- **Question**: What is the magnitude of the age of the wolf skull?
-- **Correct Answer**: Magnitude: 5
-
 #### Quantitative Natural Language Inference (QNLI)
 **QNLI** involves determining if a hypothesis can logically be deduced from a premise, specifically focusing on quantitative content.
-
-**Example:**
-- **Premise**: "The 16 NATO members and the 14 countries which used to form the rival Warsaw Pact agreed that there would be significantly less equipment permitted in the area of application in Europe than there was under the original treaty."
-- **Hypothesis**: "The NATO has 16 members."
-- **Correct Answer**: Entailment
 
 **Subtasks and Sources:**
 - **RTE-Quant**: Tests arithmetic, ranges, and quantifiers; derived from Recognizing Textual Entailment challenges.
 - **NewsNLI**: Based on CNN articles, focusing on ordinals, arithmetic, and ratios.
 - **RedditNLI**: Covers range, approximation, and numerical reasoning with items from Reddit discussions.
-- **StressTest**: From AQuA-RAT, assesses handling of quantifiers, with a focus on logical deductions under pressure.
+- **AWPNLI**: 722 arithmetic word problems that require numerical computation
 
 #### Quantitative Question-Answering (QQA)
 **QQA** challenges models to answer questions that involve arithmetic calculations or quantitative comparisons.
-
-**Example:**
-- **Question**: "The ranger and the rustler both were riding horses that galloped at the same speed. The rustler left at 01:00 whereas the ranger left at 0500 hours. Who has traveled further?"
-- **Correct Answer**: The rustler.
 
 ## Usage
 
