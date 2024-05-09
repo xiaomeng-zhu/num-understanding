@@ -1,6 +1,6 @@
 # Unpacking Large Language Model’s Performance on Quantitative Understanding: NumEval @ SemEval - 2024
 
-This repository contains the code and datasets used in our research paper "Unpacking Large Language Model's Performance on Quantitative Understanding: NumEval @ SemEval - 2024". We evaluate state-of-the-art large language models (LLMs) on tasks that require quantitative understanding and reasoning. This work was submitted as part of the SemEval - 2024 challenges.
+This repository contains the codes, instructions on downloading datasets, and enviornment requirements. We evaluate state-of-the-art large language models (LLMs) on tasks that require quantitative understanding and reasoning.
 
 ## Contents
 
