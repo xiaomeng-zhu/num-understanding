@@ -38,7 +38,6 @@ To reproduce the analysis and results described in our paper:
   python QA_task.py
   ```
 - Open and run the Jupyter notebooks (`QNLI.ipynb`, `QP.ipynb`, `QQA Fine Tuning.ipynb`) to follow the methodologies used in each specific task.
-- 
 
 ## Contact
 
