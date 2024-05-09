@@ -36,23 +36,11 @@ All datasets are available for access and download via our Google Drive folder:
 
 Please refer to the individual notebooks for specific details on which dataset is used for each task.
 
-#### Quantitative Prediction (QP)
+**Quantitative Prediction (QP):** The **QP** task evaluates the model's ability to predict the magnitude of numerical values stated in text, requiring the identification and contextual understanding of numerical entities.
 
-The **QP** task evaluates the model's ability to predict the magnitude of numerical values stated in text, requiring the identification and contextual understanding of numerical entities.
+**Quantitative Natural Language Inference (QNLI):** **QNLI** involves determining if a hypothesis can logically be deduced from a premise, specifically focusing on quantitative content.
 
-#### Quantitative Natural Language Inference (QNLI)
-
-**QNLI** involves determining if a hypothesis can logically be deduced from a premise, specifically focusing on quantitative content.
-
-**Subtasks and Sources:**
-- **RTE-Quant**: Tests arithmetic, ranges, and quantifiers; derived from Recognizing Textual Entailment challenges.
-- **NewsNLI**: Based on CNN articles, focusing on ordinals, arithmetic, and ratios.
-- **RedditNLI**: Covers range, approximation, and numerical reasoning with items from Reddit discussions.
-- **AWPNLI**: 722 arithmetic word problems that require numerical computation
-
-#### Quantitative Question-Answering (QQA)
-
-**QQA** challenges models to answer questions that involve arithmetic calculations or quantitative comparisons.
+**Quantitative Question-Answering (QQA):** **QQA** challenges models to answer questions that involve arithmetic calculations or quantitative comparisons.
 
 ## Usage
 
