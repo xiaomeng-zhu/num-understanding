@@ -30,15 +30,18 @@ Here's how you can update the **Datasets** section of your README with detailed 
 ## Datasets
 
 **Accessing the Datasets:**
+
 All datasets are available for access and download via our Google Drive folder:
 [Access Datasets Here](https://drive.google.com/drive/folders/10uQI2BZrtzaUejtdqNU9Sp1h0H9zhLUE)
 
 Please refer to the individual notebooks for specific details on which dataset is used for each task.
 
 #### Quantitative Prediction (QP)
+
 The **QP** task evaluates the model's ability to predict the magnitude of numerical values stated in text, requiring the identification and contextual understanding of numerical entities.
 
 #### Quantitative Natural Language Inference (QNLI)
+
 **QNLI** involves determining if a hypothesis can logically be deduced from a premise, specifically focusing on quantitative content.
 
 **Subtasks and Sources:**
@@ -48,6 +51,7 @@ The **QP** task evaluates the model's ability to predict the magnitude of numeri
 - **AWPNLI**: 722 arithmetic word problems that require numerical computation
 
 #### Quantitative Question-Answering (QQA)
+
 **QQA** challenges models to answer questions that involve arithmetic calculations or quantitative comparisons.
 
 ## Usage
