@@ -2,52 +2,43 @@
 
 This repository contains the codes, instructions on downloading datasets, and enviornment requirements. We evaluate state-of-the-art large language models (LLMs) on tasks that require quantitative understanding and reasoning.
 
-## Contents
+It's great that you have a repository set up! Since you've already shared the URL for the repository, here’s an enhanced version of the README that includes a direct link to the repository. This version is tailored to direct users more specifically to the resources and aspects of your project.
 
-- `QA_task.py`: Python script for the quantitative analysis tasks.
-- `QNLI.ipynb`: Jupyter notebook for the Quantitative Natural Language Inference task.
-- `QP.ipynb`: Jupyter notebook for the Quantitative Prediction task.
-- `QQA Fine Tuning.ipynb`: Jupyter notebook for fine-tuning models on the Quantitative Question Answering task.
-- `requirements.txt`: Required libraries to run the notebooks and scripts.
+---
+
+# NumEval @ SemEval - 2024: Quantitative Understanding Performance of LLMs
+
+Welcome to the official GitHub repository for our project "Unpacking Large Language Model's Performance on Quantitative Understanding: NumEval @ SemEval - 2024". This project evaluates the capabilities of state-of-the-art large language models (LLMs) on various quantitative understanding and reasoning tasks as part of the SemEval - 2024 challenges.
+
+## Repository Structure
+
+Within this repository, you will find the following files and directories:
+
+- [`QA_task.py`](https://github.com/xiaomeng-zhu/num-understanding/blob/main/QA_task.py): Python script for performing quantitative analysis tasks.
+- [`QNLI.ipynb`](https://github.com/xiaomeng-zhu/num-understanding/blob/main/QNLI.ipynb): Jupyter notebook for the Quantitative Natural Language Inference task.
+- [`QP.ipynb`](https://github.com/xiaomeng-zhu/num-understanding/blob/main/QP.ipynb): Jupyter notebook for the Quantitative Prediction task.
+- [`QQA Fine Tuning.ipynb`](https://github.com/xiaomeng-zhu/num-understanding/blob/main/QQA%20Fine%20Tuning.ipynb): Jupyter notebook detailing the fine-tuning process for the Quantitative Question Answering task.
+- [`requirements.txt`](https://github.com/xiaomeng-zhu/num-understanding/blob/main/requirements.txt): Contains all the necessary Python packages required to run the scripts and notebooks.
 
 ## Installation
 
-To set up a local development environment, follow these steps:
+To get started with this project, clone the repository and install the required dependencies:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-github-username/numeval-semeval-2024.git
-   cd numeval-semeval-2024
-   ```
-
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
+```bash
+git clone https://github.com/xiaomeng-zhu/num-understanding.git
+cd num-understanding
+pip install -r requirements.txt
+```
 ## Usage
 
-Each notebook/script in this repository corresponds to a different part of our analysis:
+To reproduce the analysis and results described in our paper:
 
-- **Quantitative Analysis Tasks**: Run `python QA_task.py` to execute the analysis tasks described in our paper.
-- **QNLI**: Use Jupyter to open `QNLI.ipynb` and run the cells to reproduce our NLI analysis.
-- **QP**: Use Jupyter to open `QP.ipynb` and execute the quantitative predictions as detailed.
-- **QQA Fine Tuning**: Open `QQA Fine Tuning.ipynb` in Jupyter to see our fine-tuning process for the QQA task.
-
-## Contributing
-
-Contributions to this project are welcome! To contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add some feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Create a new Pull Request.
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
+- Run `QA_task.py` for quantitative analysis tasks:
+  ```bash
+  python QA_task.py
+  ```
+- Open and run the Jupyter notebooks (`QNLI.ipynb`, `QP.ipynb`, `QQA Fine Tuning.ipynb`) to follow the methodologies used in each specific task.
+- 
 
 ## Contact
 
@@ -58,7 +49,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 - Yale University Department of Statistics and Data Science
 - Yale University Department of Linguistics
-
----
-
-This README template includes basic sections that most projects will need. Depending on the specifics of your project, you might want to include additional sections such as `Data`, `Results`, or `Citations` if you want to provide direct references to the datasets or key results from your paper.
