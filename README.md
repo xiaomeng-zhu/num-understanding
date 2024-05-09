@@ -21,11 +21,6 @@ git clone https://github.com/xiaomeng-zhu/num-understanding.git
 cd num-understanding
 pip install -r requirements.txt
 ```
-## Datasets
-
-Here's how you can update the **Datasets** section of your README with detailed information about the datasets used in your project for the SemEval-2024 NumEval competition:
-
----
 
 ## Datasets
 
