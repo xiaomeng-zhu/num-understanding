@@ -7,8 +7,16 @@ This repository contains the codes, instructions on downloading datasets, and en
 Within this repository, you will find the following files and directories:
   
   <!-- - [`QA_task.py`](https://github.com/xiaomeng-zhu/num-understanding/blob/main/QA_task.py): Python script for performing quantitative analysis tasks. -->
-  - [`qqa`](https://github.com/xiaomeng-zhu/num-understanding/blob/main/qqa): Directory containing all materials for the Quantitative Question Answering task.
-      - [`dataset`]
+  - [`qqa`](https://github.com/xiaomeng-zhu/num-understanding/blob/main/qqa): Directory containing all materials for the Quantitative Question-Answering task.
+      - `dataset`: Directory containing the original qqa dataset (also available on Google Drive specified in the next section).
+      - `qqa_instruct`: The qqa dataset converted to instruction fine-tuning format.
+      - `results`: Results for QQA from Experiment 1 and Experiment 2.
+          - `cleaned_results`: Model responses with the prompt removed.
+      - `analyze_ft.py`: Python script for analyzing Experiment 2 results.
+      - `create_inst_dataset.py`: Python script for converting original dataset to instruction fine-tuning format.
+      - `exp1_qqa_prompt.ipynb`: Jupyter notebook for prompting models for the Quantitative Question-Answering task.
+      - `exp2_qqa_ift.ipynb`: Jupyter notebook for fine-tuning Llama 2 on QQA_train.json.
+      - `significance_test.R`: R script for significance testing.
   - [`QNLI.ipynb`](https://github.com/xiaomeng-zhu/num-understanding/blob/main/QNLI.ipynb): Jupyter notebook for the Quantitative Natural Language Inference task.
   - [`QP.ipynb`](https://github.com/xiaomeng-zhu/num-understanding/blob/main/QP.ipynb): Jupyter notebook for the Quantitative Prediction task.
   <!-- - [`QQA Fine Tuning.ipynb`](https://github.com/xiaomeng-zhu/num-understanding/blob/main/QQA%20Fine%20Tuning.ipynb): Jupyter notebook detailing the fine-tuning process for the Quantitative Question Answering task. -->
