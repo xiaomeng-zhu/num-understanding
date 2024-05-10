@@ -51,11 +51,12 @@ Please refer to the individual notebooks for specific details on which dataset i
 
 To reproduce the analysis and results described in our paper:
 
-- Run `QA_task.py` for quantitative analysis tasks:
+- Run the following commands for QQA:
   ```bash
-  python QA_task.py
+  cd qqa
+  python analyze_ft.py
   ```
-- Open and run the Jupyter notebooks (`QNLI.ipynb`, `QP.ipynb`, `QQA Fine Tuning.ipynb`) to follow the methodologies used in each specific task.
+- Open and run the Jupyter notebooks (`QNLI.ipynb`, `QP.ipynb`, `exp1_qqa_prompt.ipynb`) to follow the methodologies used in each specific task.
 
 ## Contact
 
